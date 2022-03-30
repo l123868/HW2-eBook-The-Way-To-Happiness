@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D27F537527E8B8B500F39C8D /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F537427E8B8B500F39C8D /* HappyViewController.swift */; };
+		D28AF7BA27F49D33001398DA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AF7B927F49D33001398DA /* VideoViewController.swift */; };
+		D28AF7BC27F4A182001398DA /* AllFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AF7BB27F4A182001398DA /* AllFilmsViewController.swift */; };
+		D28AF7BE27F4A321001398DA /* OfficalWebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28AF7BD27F4A321001398DA /* OfficalWebSiteViewController.swift */; };
 		D2B2641927E610490009A84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2641827E610490009A84C /* AppDelegate.swift */; };
 		D2B2641B27E610490009A84C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2641A27E610490009A84C /* SceneDelegate.swift */; };
-		D2B2641D27E610490009A84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2641C27E610490009A84C /* ViewController.swift */; };
 		D2B2642027E610490009A84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B2641E27E610490009A84C /* Main.storyboard */; };
-		D2B2642227E610510009A84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2642127E610510009A84C /* Assets.xcassets */; };
 		D2B2642527E610510009A84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B2642327E610510009A84C /* LaunchScreen.storyboard */; };
+		D2B2642D27E6111A0009A84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2642C27E6111A0009A84C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D27F537427E8B8B500F39C8D /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
+		D28AF7B927F49D33001398DA /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		D28AF7BB27F4A182001398DA /* AllFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilmsViewController.swift; sourceTree = "<group>"; };
+		D28AF7BD27F4A321001398DA /* OfficalWebSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficalWebSiteViewController.swift; sourceTree = "<group>"; };
 		D2B2641527E610490009A84C /* HW2 eBook-The Way To Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2 eBook-The Way To Happiness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B2641827E610490009A84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2B2641A27E610490009A84C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2B2641C27E610490009A84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2B2641F27E610490009A84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2B2642127E610510009A84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B2642427E610510009A84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B2642627E610510009A84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B2642C27E6111A0009A84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		D2B2641727E610490009A84C /* HW2 eBook-The Way To Happiness */ = {
 			isa = PBXGroup;
 			children = (
+				D28AF7B927F49D33001398DA /* VideoViewController.swift */,
 				D2B2641827E610490009A84C /* AppDelegate.swift */,
+				D28AF7BD27F4A321001398DA /* OfficalWebSiteViewController.swift */,
 				D2B2641A27E610490009A84C /* SceneDelegate.swift */,
-				D2B2641C27E610490009A84C /* ViewController.swift */,
+				D28AF7BB27F4A182001398DA /* AllFilmsViewController.swift */,
 				D2B2641E27E610490009A84C /* Main.storyboard */,
-				D2B2642127E610510009A84C /* Assets.xcassets */,
+				D27F537427E8B8B500F39C8D /* HappyViewController.swift */,
 				D2B2642327E610510009A84C /* LaunchScreen.storyboard */,
 				D2B2642627E610510009A84C /* Info.plist */,
+				D2B2642C27E6111A0009A84C /* Assets.xcassets */,
 			);
 			path = "HW2 eBook-The Way To Happiness";
 			sourceTree = "<group>";
@@ -126,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B2642527E610510009A84C /* LaunchScreen.storyboard in Resources */,
-				D2B2642227E610510009A84C /* Assets.xcassets in Resources */,
+				D2B2642D27E6111A0009A84C /* Assets.xcassets in Resources */,
 				D2B2642027E610490009A84C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B2641D27E610490009A84C /* ViewController.swift in Sources */,
+				D27F537527E8B8B500F39C8D /* HappyViewController.swift in Sources */,
 				D2B2641927E610490009A84C /* AppDelegate.swift in Sources */,
+				D28AF7BC27F4A182001398DA /* AllFilmsViewController.swift in Sources */,
+				D28AF7BA27F49D33001398DA /* VideoViewController.swift in Sources */,
 				D2B2641B27E610490009A84C /* SceneDelegate.swift in Sources */,
+				D28AF7BE27F4A321001398DA /* OfficalWebSiteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
